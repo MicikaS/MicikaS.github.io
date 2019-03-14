@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <title> Moj CV </title>
+     <meta charset="UTF8" >
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
+                           <!-- stavimo daje sirina kao sirina uredjaja i  stavimo 1 da kada okrenemo 
+                            okran bude ista velicina kao i kad se ne okrece -->
+     
+     <style>
+         body{
+             background-color: #f3f0f0;
+             margin-top:15px;
+             
+         }
+
+        div.glavni_div{
+            position: relative;
+            
+            margin:15px;
+            
+        }
+
+         div.leva_strana{
+            text-align: left;
+            color:rgb(128, 127, 127);
+            position: absolute;
+            
+            height: 1480px;
+            float:left;
+            background-color: white;
+            box-shadow: 5px 5px 5px 5px #888888;
+            
+           
+         }
+
+         div.osnovne_informacije{
+            padding-left:10px;
+             
+         }
+    
+         div.desna_strana{
+            position: absolute;
+            right:5px;  
+            width: 800px;
+            
+            background-color: white;
+            box-shadow: 5px 5px 5px 5px #888888;
+         }
+
+         div.poslovna_iskustva{
+             top:15px;
+         }
+
+
+
+         div.footer{
+            
+            height:110px;
+            background:black;
+            color:white;
+            font-size:13px;
+            text-align:center;
+            position: relative; 
+            bottom:0px;          
+            top:1500px; 
+            padding: 10px; 
+                     
+
+}
+
+         div.slika_sa_imenom{
+            position: relative;
+            display: block;
+            margin: 0;
+            padding: 0;
+         }
+
+          div.ime{
+            position: absolute;
+            bottom: 8px;
+            left: 8px;
+            color:black;
+            font-size:25px;
+            
+          }
+
+    
+         
+
+         div.p_procenat{
+             background-color: rgb(111, 180, 245);
+             text-align: center;
+             border-radius:10px;      
+             color:white;      
+         }
+
+         div.j_procenat{
+            background-color: rgb(111, 180, 245);
+            text-align: center; 
+            border-radius:10px;
+            color:white;            
+         }
+
+         div.programski_jezici{
+            padding-left: 10px;
+         }
+
+         div.jezici{
+            padding-left: 10px;
+         }
+
+         div.posao{
+             padding-left: 35px;
+         }
+         
+         .obrazovanje1{
+            padding-left: 35px;
+            font-size:18px;
+            color:grey;
+            font-family: "Palatino Linotype";
+
+         }
+
+         .fakultet{
+            font-size:18px;
+            color:grey;
+            font-family: "Palatino Linotype";
+         }
+
+         .naslov_desno{
+             color:grey;
+             font-size: 25px;
+             font-family: "Palatino Linotype";
+             padding-left:6px;
+         }
+
+
+         .naslov_posla{
+             color:grey;
+             font-size: 18px;
+             font-family: "Palatino Linotype";
+         }
+
+
+         .vreme_rada{
+            color:grey;
+            font-size: 15px;
+            font-family: "Palatino Linotype";
+            padding-left:8px;
+         }
+
+         span{
+             background-color: rgb(111, 180, 245);
+             border-radius: 7px;
+             color:white;
+             padding: 4px;
+             
+         }
+
+         .opis_posla{
+             padding-left:12px;
+         }
+
+     </style>
+ </head>
+ 
+ <body>
+        <div class="glavni_div" style="max-width:1400px; max-height:1650px;"> <!--Na ovom divu se sve nalazi-->
+          <!--<div class="nzm_jos_za_sta_sluzi"> -->
+
+              <!--leva strana-->
+          <div class="leva_strana">
+            <div class="slika_sa_imenom">
+                    <img src="slika.jpeg" style="width:460px" alt="Moja slika">
+                    <div class="ime">Milica Smiljanic</div> 
+            </div>
+           
+           
+            <div class="osnovne_informacije">
+                <p class="zanimanje"><img src="user.png" width="15px" height="15px;"> Student</p>
+                <p class="mesto"><img src="home.png" width="15px" height="15px;"> Novi Beograd, Srbija</p>
+                <p class="datum_rodjenja"><img src="heart.png" width="15px" height="15px;"> 11.03.1996</p>
+                <p class="email"><img src="email.png" width="15px" height="15px;"> milicasmiljanic123@gmail.com</p>
+                <p class="broj_telefona"> <img src="call.png" width="15px" height="15px;"> (+381) 63 166 3514</p>
+               <hr style="color:rgba(247, 243, 238, 0.979); width:440px;">
+            </div>
+            <!--<hr style="color:#adadad"> -->
+
+            <!--Programski jezici-->
+           <div class="programski_jezici">
+            <p class="programski_jezici"><img src="laptop.png" width="35px" height="25px;"><b> Programski jezici</b></p>
+
+            <p>Html</p>
+            <div class="p_jezik">
+              <div class="p_procenat" style="width:80%">80%</div>
+            </div>
+
+            <p>Css</p>
+            <div class="p_jezik">
+              <div class="p_procenat" style="width:70%">70%</div>
+            </div>
+
+            <p>JavaScript</p>
+            <div class="p_jezik">
+              <div class="p_procenat" style="width:70%">70%</div>
+            </div>
+
+            <p>Python</p>
+            <div class="p_jezik">
+              <div class="p_procenat" style="width:70%">70%</div>
+            </div>
+
+            <p>C</p>
+            <div class="p_jezik">
+              <div class="p_procenat" style="width:80%">80%</div>
+            </div>
+
+            <p>Java</p>
+            <div class="p_jezik">
+              <div class="p_procenat" style="width:60%">60%</div>
+            </div>
+
+            <p>Asembler</p>
+            <div class="p_jezik">
+              <div class="p_procenat" style="width:40%">40%</div>
+            </div>
+
+            <p>C++</p>
+            <div class="p_jezik">
+              <div class="p_procenat" style="width:40%">40%</div>
+            </div>
+
+            <p>SQL</p>
+            <div class="p_jezik">
+              <div class="p_procenat" style="width:40%">40%</div>
+            </div>
+          </div>
+
+            <br>
+           <!-- <hr style="color:grey"> -->
+           <hr style="color:rgba(247, 243, 238, 0.979); width:430px; padding-left:0px;">
+
+            <!--Jezici-->
+            <div class="jezici">
+            <p class="jezici"><img src="globe.png" width="25px" height="25px;"><b> Jezici</b></p>
+            <p>Srpski</p>
+            <div class="j_jezik">
+             <div class="j_procenat" style="height:24px;width:99%"></div>
+            </div>
+
+            <p>Engleski</p>
+            <div class="j_jezik">
+             <div class="j_procenat" style="height:24px;width:55%"></div>
+            </div>
+
+            <p>Francuski</p>
+            <div class="j_jezik">
+             <div class="j_procenat" style="height:24px;width:25%"></div>
+            </div>
+           </div> 
+            <br>
+
+            <!--zatvaranje leve strane-->
+        </div>
+           
+           <!--desna strana-->
+          <div class="desna_strana">
+            <div class="poslovna_iskustva">
+               <h2 class="naslov_desno"> <img src="tie.png" width="45px" height="30px;"> Poslovna iskustva</h2>
+                
+               <div class="posao">
+                    <h5 class="naslov_posla"><b>Predavač / <a href="http://www.malaskolaelektronike.com/" style="text-decoration: none; color:cornflowerblue"> Mala škola elektronike </a></b></h5>
+                    <h5 class="vreme_rada">   <img src="calendar.png" width="23px" height="18px;"> Sep 2018 - <span> Danas </span></span></h5>
+                    <p class="opis_posla">Držim časove programiranja deci, jezici su Html, Css, JavaScript, Python </p>
+                   
+               </div>
+
+               <div class="posao">
+                <h5 class="naslov_posla"><b>Predavač / <a href="http://playcode.rs/" style="text-decoration: none; color:cornflowerblue"> PlayCode</a></b></h5>
+                <h5 class="vreme_rada">   <img src="calendar.png" width="23px" height="18px;"> Feb 2019 - <span> Danas </span></span></h5>
+                <p class="opis_posla">Držim časove programiranja deci, predajem jezik Python </p>
+               
+           </div>
+
+     
+               <hr style="color:peachpuf f; width:750px;">
+            <!--zatvaranje posla-->
+            </div>
+
+            <!--obrazovanje-->
+            <div class="obrazovanje">
+                <h2 class="naslov_desno"> <img src="book.png" width="45px" height="35px;"> Obrazovanje</h2>
+                <div class="obrazovanje1">
+                        <h5 class="fakultet"><b>Matematički fakultet, Beograd</b></h5>
+                        <h5 class="smer">Informatika</h5>
+                        <h5> <img src="calendar.png" width="23px" height="18px;"> 2017 - <span>Danas</span></h5>                    
+                        <br>
+                    </div>
+                
+                <div class="obrazovanje1">
+                    <h5 class="fakultet"><b>Matematički fakultet, Beograd</b></h5>
+                    <h5 class="smer">Računarstvo i informatika</h5>
+                    <h5><img src="calendar.png" width="23px" height="18px;"> 2015 - 2017</h5>
+                    <br>
+                </div>
+                
+                <div class="obrazovanje1">
+                        <h5 class="fakultet"><b>Zemunska gimnazija, Beograd</b></h5>
+                        <h5 class="smer">Informatika</h5>
+                        <h5> <img src="calendar.png" width="23px" height="18px;"> 2011 - 2015 </h5>                    
+                        <br>
+                    </div>
+
+
+                <div class="obrazovanje1">
+                      <h5 class="fakultet"><b> Osnovna škola „Milan Rakić”, Beograd </b></h5>
+                      <h5 class="smer">Prirodno-matematički smer</h5>
+                      <h5> <img src="calendar.png" width="23px" height="18px;"> 2003 - 2011 </h5>                    
+                      <br>
+                  </div>
+             <!--zatvaranje obrazovanja-->
+            </div>
+
+
+
+          <!--zatvaranje desne strane -->
+        </div>
+
+
+           <!--zatvaranje diva za koji ne znam za sta sluzi-->
+          <!--</div>-->
+
+
+          <!--zatvaranje glavnog diva-->
+        </div>
+
+        <div class="footer">
+                <p>Find me on social media.</p>
+                <br>
+                <a href="https://www.facebook.com/milica.smiljanic.98">
+                <img src="facebook.png" width="25px" height="25px;"> </a>
+                <a href="https://www.instagram.com/micacica96/">
+                <img src="instagram.png" width="25px" height="25px;"> </a>
+                
+                <br>
+                <p>Powered by Milica Smiljanić</p>
+        </div>
+
+ </body>
+
+
+</html>
