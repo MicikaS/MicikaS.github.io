@@ -3,26 +3,25 @@
  <head>
      <title> Moj CV </title>
      <meta charset="UTF8" >
-     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta name="viewport" content="width=device-width, initial-scale=1"> 
                            <!-- stavimo daje sirina kao sirina uredjaja i  stavimo 1 da kada okrenemo 
                             okran bude ista velicina kao i kad se ne okrece -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
      
+                      
+     
+     <style>
 
 
-
-  <style>
          body{
              background-color: #f3f0f0;
-             margin-top:15px;
+                
              
          }
 
         div.glavni_div{
-            position: relative;
-            
+          
             margin:15px;
             
         }
@@ -30,13 +29,12 @@
          div.leva_strana{
             text-align: left;
             color:rgb(128, 127, 127);
-            position: absolute;
-            
-            height: 1480px;
             float:left;
+            width:35%;
+            
             background-color: white;
             box-shadow: 5px 5px 5px 5px #888888;
-            
+            margin-bottom: 20px;
            
          }
 
@@ -46,9 +44,10 @@
          }
     
          div.desna_strana{
-            position: absolute;
-            right:5px;  
-            width: 800px;
+            
+            float:left;
+            width: 60%;
+            margin-left:30px;
             
             background-color: white;
             box-shadow: 5px 5px 5px 5px #888888;
@@ -62,15 +61,17 @@
 
          div.footer{
             
-            height:110px;
+          
+            clear:both;
+            height:100px;
             background:black;
             color:white;
             font-size:13px;
             text-align:center;
-            position: relative; 
-            bottom:0px;          
-            top:1500px; 
-            padding: 10px; 
+            padding:5px;
+             
+            
+            
                      
 
 }
@@ -80,6 +81,7 @@
             display: block;
             margin: 0;
             padding: 0;
+            width:auto;
          }
 
           div.ime{
@@ -172,7 +174,7 @@
  </head>
  
  <body>
-        <div class="glavni_div" style="max-width:1400px; max-height:1650px;"> <!--Na ovom divu se sve nalazi-->
+        <div class="glavni_div"> <!--Na ovom divu se sve nalazi-->
           <!--<div class="nzm_jos_za_sta_sluzi"> -->
 
               <!--leva strana-->
@@ -336,22 +338,26 @@
 
            <!--zatvaranje diva za koji ne znam za sta sluzi-->
           <!--</div>-->
+         
+          
+         
+          <div class="footer">
+              
+            <p>Find me on social media.</p>
+              
+              <a href="https://www.facebook.com/milica.smiljanic.98">
+              <img src="facebook.png" width="25px" height="25px;"> </a>
+              <a href="https://www.instagram.com/micacica96/">
+              <img src="instagram.png" width="25px" height="25px;"> </a>
+              
+              <br>
+              <p>Powered by Milica Smiljanić</p>
+      </div>
 
-
-          <!--zatvaranje glavnog diva-->
+ <!--zatvaranje glavnog diva-->
         </div>
 
-        <div class="footer">
-                <p>Find me on social media.</p>
-                <br>
-                <a href="https://www.facebook.com/milica.smiljanic.98">
-                <img src="facebook.png" width="25px" height="25px;"> </a>
-                <a href="https://www.instagram.com/micacica96/">
-                <img src="instagram.png" width="25px" height="25px;"> </a>
-                
-                <br>
-                <p>Powered by Milica Smiljanić</p>
-        </div>
+
 
  </body>
 
