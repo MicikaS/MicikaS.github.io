@@ -64,7 +64,7 @@ div.j_procenat{
 }
 
 
-div.desna_strana{
+#desna_strana{
             
    float:left;
    width: 62%;
@@ -74,24 +74,9 @@ div.desna_strana{
    box-shadow: 5px 5px 5px 5px #888888;
 }
 
-div.poslovna_iskustva{
+#poslovna_iskustva{
    top:15px;
 }
-
-
-
-div.footer{
-   clear:both;
-   height:100px;
-   background:black;
-   color:white;
-   font-size:13px;
-   text-align:center;
-   margin-top:80px; 
-}
-
-
-
 
 
 div.posao{
@@ -146,5 +131,18 @@ span{
 .opis_posla{
    padding-left:12px;
 }
+
+
+#footer{
+   clear:both;
+   height:100px;
+   background:black;
+   color:white;
+   font-size:13px;
+   text-align:center;
+   margin-top:80px; 
+}
+
+
 
     
