@@ -1,0 +1,145 @@
+
+body{
+   background-color: #f3f0f0;
+}
+
+div.glavni_div{
+   margin:15px;
+}
+
+div.leva_strana{
+   text-align: left;
+   color:rgb(128, 127, 127);
+   float:left;
+   width:35%;
+   
+   background-color: white;
+   box-shadow: 5px 5px 5px 5px #888888;
+   
+   margin-bottom: 20px;
+}
+
+div.osnovne_informacije{
+   padding-left:10px;
+}
+    
+div.desna_strana{
+            
+   float:left;
+   width: 62%;
+   margin-left:30px;
+   
+   background-color: white;
+   box-shadow: 5px 5px 5px 5px #888888;
+}
+
+div.poslovna_iskustva{
+   top:15px;
+}
+
+
+
+div.footer{
+   clear:both;
+   height:100px;
+   background:black;
+   color:white;
+   font-size:13px;
+   text-align:center;
+   margin-top:80px; 
+}
+
+div.slika_sa_imenom{
+   position: relative;
+   display: block;
+   margin: 0;
+   padding: 0;
+   width:auto;
+}
+
+
+div.ime{
+   position: absolute;
+   bottom: 8px;
+   left: 8px;
+   color:black;
+   font-size:25px;
+}
+
+    
+div.p_procenat{
+   background-color: rgb(111, 180, 245);
+   text-align: center;
+   border-radius:10px;      
+   color:white;      
+}
+
+div.j_procenat{
+   background-color: rgb(111, 180, 245);
+   text-align: center; 
+   border-radius:10px;
+   color:white;            
+}
+
+div.programski_jezici{
+   padding-left: 10px;
+}
+
+div.jezici{
+   padding-left: 10px;
+}
+
+div.posao{
+   padding-left: 35px;
+}
+         
+.obrazovanje1{
+   padding-left: 35px;
+   font-size:18px;
+   color:grey;
+   font-family: "Palatino Linotype";
+
+}
+
+.fakultet{
+   font-size:18px;
+   color:grey;
+   font-family: "Palatino Linotype";
+}
+
+
+.naslov_desno{
+   color:grey;
+   font-size: 25px;
+   font-family: "Palatino Linotype";
+   padding-left:6px;
+}
+
+
+.naslov_posla{
+   color:grey;
+   font-size: 18px;
+   font-family: "Palatino Linotype";
+}
+
+
+.vreme_rada{
+   color:grey;
+   font-size: 15px;
+   font-family: "Palatino Linotype";
+   padding-left:8px;
+}
+
+span{
+   background-color: rgb(111, 180, 245);
+   border-radius: 7px;
+   color:white;
+   padding: 4px;
+             
+}
+
+.opis_posla{
+   padding-left:12px;
+}
+
+    
