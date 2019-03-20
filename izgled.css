@@ -3,11 +3,11 @@ body{
    background-color: #f3f0f0;
 }
 
-div.glavni_div{
+#glavni_div{
    margin:15px;
 }
 
-div.leva_strana{
+#leva_strana{
    text-align: left;
    color:rgb(128, 127, 127);
    float:left;
@@ -19,10 +19,51 @@ div.leva_strana{
    margin-bottom: 20px;
 }
 
-div.osnovne_informacije{
+
+#slika_sa_imenom{
+   
+   display: block;
+   margin: 0;
+   padding: 0;
+   
+}
+
+#ime{
+   
+   top: 8px;
+   left: 8px;
+   color:black;
+   font-size:25px;
+}
+
+
+#osnovne_informacije{
    padding-left:10px;
 }
-    
+
+#programski_jezici{
+   padding-left: 10px;
+}
+
+#jezici{
+   padding-left: 10px;
+}
+
+div.p_procenat{
+   background-color: rgb(111, 180, 245);
+   text-align: center;
+   border-radius:10px;      
+   color:white;      
+}
+
+div.j_procenat{
+   background-color: rgb(111, 180, 245);
+   text-align: center; 
+   border-radius:10px;
+   color:white;            
+}
+
+
 div.desna_strana{
             
    float:left;
@@ -49,45 +90,9 @@ div.footer{
    margin-top:80px; 
 }
 
-div.slika_sa_imenom{
-   position: relative;
-   display: block;
-   margin: 0;
-   padding: 0;
-   width:auto;
-}
 
 
-div.ime{
-   position: absolute;
-   bottom: 8px;
-   left: 8px;
-   color:black;
-   font-size:25px;
-}
 
-    
-div.p_procenat{
-   background-color: rgb(111, 180, 245);
-   text-align: center;
-   border-radius:10px;      
-   color:white;      
-}
-
-div.j_procenat{
-   background-color: rgb(111, 180, 245);
-   text-align: center; 
-   border-radius:10px;
-   color:white;            
-}
-
-div.programski_jezici{
-   padding-left: 10px;
-}
-
-div.jezici{
-   padding-left: 10px;
-}
 
 div.posao{
    padding-left: 35px;
