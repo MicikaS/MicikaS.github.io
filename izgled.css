@@ -1,4 +1,5 @@
 
+
 body{
    background-color: #f3f0f0;
 }
@@ -9,9 +10,9 @@ body{
 
 #leva_strana{
    text-align: left;
-   color:rgb(128, 127, 127);
+   color:rgb(172, 172, 172);
    float:left;
-   
+   height:1500px;
    
    background-color: white;
    box-shadow: 5px 5px 5px 5px #888888;
@@ -142,7 +143,7 @@ span{
    font-size:13px;
    text-align:center;
    margin-top:80px; 
-  
+   width:auto;
 }
 
 
