@@ -11,7 +11,7 @@ body{
    text-align: left;
    color:rgb(128, 127, 127);
    float:left;
-   width:35%;
+   
    
    background-color: white;
    box-shadow: 5px 5px 5px 5px #888888;
@@ -67,7 +67,7 @@ div.j_procenat{
 #desna_strana{
             
    float:left;
-   width: 62%;
+   
    margin-left:30px;
    
    background-color: white;
@@ -82,20 +82,7 @@ div.j_procenat{
 div.posao{
    padding-left: 35px;
 }
-         
-.obrazovanje1{
-   padding-left: 35px;
-   font-size:18px;
-   color:grey;
-   font-family: "Palatino Linotype";
 
-}
-
-.fakultet{
-   font-size:18px;
-   color:grey;
-   font-family: "Palatino Linotype";
-}
 
 
 .naslov_desno{
@@ -132,6 +119,20 @@ span{
    padding-left:12px;
 }
 
+         
+.obrazovanje1{
+   padding-left: 35px;
+   font-size:18px;
+   color:grey;
+   font-family: "Palatino Linotype";
+
+}
+
+.fakultet{
+   font-size:18px;
+   color:grey;
+   font-family: "Palatino Linotype";
+}
 
 #footer{
    clear:both;
@@ -141,6 +142,7 @@ span{
    font-size:13px;
    text-align:center;
    margin-top:80px; 
+   width:auto;
 }
 
 
