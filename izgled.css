@@ -15,7 +15,7 @@ body{
    height:1500px;
    
    background-color: white;
-   box-shadow: 5px 5px 5px 5px #888888;
+   
    
    margin-bottom: 20px;
 }
@@ -67,12 +67,12 @@ div.j_procenat{
 
 #desna_strana{
             
-   float:left;
+
    
-   margin-left:30px;
+  
    
    background-color: white;
-   box-shadow: 5px 5px 5px 5px #888888;
+   
 }
 
 #poslovna_iskustva{
@@ -142,8 +142,8 @@ span{
    color:white;
    font-size:13px;
    text-align:center;
-   margin-top:80px; 
-   width:auto;
+  
+   width:100%;
 }
 
 
