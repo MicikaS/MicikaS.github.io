@@ -1,0 +1,159 @@
+
+
+body{
+   background-color: #f3f0f0;
+   margin:0px;
+   padding:0px;
+   width:100%;
+}
+
+#glavni_div{
+ 
+}
+#leva_strana{
+   text-align: left;
+   color:rgb(172, 172, 172);
+   min-height: 100vh;
+   background-color: white;
+   box-shadow: 5px 5px 5px 5px #888888;
+   margin-bottom: 20px;
+}
+#slika_sa_imenom{
+   display: block;
+   margin: 0;
+   padding: 0;
+   width:100%;
+}
+#slika{
+   width:100% !important;
+}
+#ime{
+   top: 8px;
+   left: 8px;
+   color:black;
+   font-size:25px;
+}
+
+#osnovne_informacije{
+   padding-left:10px;
+}
+
+#programski_jezici{
+   padding-left: 10px;
+}
+
+#jezici{
+   padding-left: 10px;
+   display: block;
+   position: relative;
+}
+
+div.p_procenat{
+   background-color: rgb(111, 180, 245);
+   text-align: center;
+   border-radius:10px;      
+   color:white;  
+   display: block;    
+}
+
+div.j_procenat{
+   background-color: rgb(111, 180, 245);
+   text-align: center; 
+   border-radius:10px;
+   color:white;            
+}
+
+
+
+
+#desna_strana{
+   text-align: left;
+   color:rgb(172, 172, 172);
+   min-height:100vh;
+   background-color: white;
+   box-shadow: 5px 5px 5px 5px #888888;
+   margin-bottom: 20px;
+}
+
+#poslovna_iskustva{
+   top:15px;
+}
+
+
+div.posao{
+   padding-left: 35px;
+}
+.naslov_desno{
+   color:grey;
+   font-size: 25px;
+   font-family: "Palatino Linotype";
+   padding-left:6px;
+}
+
+
+.naslov_posla{
+   color:grey;
+   font-size: 18px;
+   font-family: "Palatino Linotype";
+}
+
+
+.vreme_rada{
+   color:grey;
+   font-size: 15px;
+   font-family: "Palatino Linotype";
+   padding-left:8px;
+}
+
+span{
+   background-color: rgb(111, 180, 245);
+   border-radius: 7px;
+   color:white;
+   padding: 4px;
+             
+}
+
+.opis_posla{
+   padding-left:12px;
+}
+.obrazovanje1{
+   padding-left: 35px;
+   font-size:18px;
+   color:grey;
+   font-family: "Palatino Linotype";
+
+}
+
+.fakultet{
+   font-size:18px;
+   color:grey;
+   font-family: "Palatino Linotype";
+}
+
+#footer{
+   clear:both;
+   height:100px;
+   background:black;
+   color:white;
+   font-size:13px;
+   text-align:center;
+   margin-top:80px; 
+   width:100%;
+}
+
+    
+@media screen and (max-width: 767px) {
+   #leva_strana{
+      
+   margin-right: 0 !important;
+   }
+
+
+   #slika {
+      width: 100% !important;
+   }
+   #footer {
+      margin-top: 30px;
+   }
+   
+}
