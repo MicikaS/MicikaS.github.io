@@ -72,6 +72,10 @@ div.j_procenat{
    color:white;            
 }
 
+@media screen and (max-width: 767px) {
+   #desna_strana{
+   margin-left:50px;}
+}
 
 #desna_strana{
             
