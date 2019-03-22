@@ -15,7 +15,7 @@ body{
    height:1500px;
    
    background-color: white;
-   
+   box-shadow: 5px 5px 5px 5px #888888;
    
    margin-bottom: 20px;
 }
@@ -26,7 +26,12 @@ body{
    display: block;
    margin: 0;
    padding: 0;
+   width:100%;
    
+}
+
+#slika{
+   width:100%;
 }
 
 #ime{
@@ -67,12 +72,12 @@ div.j_procenat{
 
 #desna_strana{
             
-
+   float:left;
    
-  
+   margin-left:30px;
    
    background-color: white;
-   
+   box-shadow: 5px 5px 5px 5px #888888;
 }
 
 #poslovna_iskustva{
@@ -142,8 +147,8 @@ span{
    color:white;
    font-size:13px;
    text-align:center;
-  
-   width:100%;
+   margin-top:80px; 
+   width:auto;
 }
 
 
