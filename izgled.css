@@ -34,7 +34,7 @@ body{
 }
 
 #slika{
-   width:100%;
+   width:100% !important;
 }
 
 #ime{
@@ -72,15 +72,23 @@ div.j_procenat{
    color:white;            
 }
 
+
 @media screen and (max-width: 767px) {
    #desna_strana{
-   margin-left:50px;}
+                
+   background-color: white;
+   box-shadow: 5px 5px 5px 5px #888888;
+   }
 }
+
+
+
+
 
 #desna_strana{
             
    float:left;
-   
+   margin-left:50px;
    
   
    
