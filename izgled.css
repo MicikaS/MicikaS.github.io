@@ -2,27 +2,10 @@
 
 body{
    background-color: #f3f0f0;
-   margin:0px;
-   padding:0px;
-   width:100%;
 }
 
 #glavni_div{
    margin:15px;
-}
-
-@media screen and (max-width: 767px) {
-   #leva_strana{
-      
-   text-align: left;
-   color:rgb(172, 172, 172);
-   height:1500px;
-   
-   background-color: white;
-   box-shadow: 5px 5px 5px 5px #888888;
-   
-   margin-bottom: 20px;
-   }
 }
 
 #leva_strana{
@@ -48,7 +31,7 @@ body{
 }
 
 #slika{
-   width:100% !important;
+   width:100%;
 }
 
 #ime{
@@ -87,24 +70,11 @@ div.j_procenat{
 }
 
 
-@media screen and (max-width: 767px) {
-   #desna_strana{
-                
-   background-color: white;
-   box-shadow: 5px 5px 5px 5px #888888;
-   }
-}
-
-
-
-
-
 #desna_strana{
             
    float:left;
-   margin-left:50px;
    
-  
+   margin-left:30px;
    
    background-color: white;
    box-shadow: 5px 5px 5px 5px #888888;
@@ -178,7 +148,7 @@ span{
    font-size:13px;
    text-align:center;
    margin-top:80px; 
-   width:100%;
+   width:auto;
 }
 
 
