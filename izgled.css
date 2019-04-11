@@ -1,0 +1,297 @@
+
+
+body{
+    background-color: #f3f0f0;
+    margin-top:10px;
+    width: 100%;
+ }
+ 
+ 
+ #leva_strana{
+    text-align: left;
+    color:rgb(172, 172, 172);
+    min-height: 100vh;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px #888888;
+    margin-bottom: 20px;
+ }
+ 
+ .container {
+    position: relative;
+    padding:0;
+    text-align: center;
+    color: black;
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 9px;
+    font-size: 30px;
+    padding-left:3px;
+  }
+ 
+ #moja_slika{
+    display: block;
+    margin: 0;
+  
+    width: 100vw;
+ }
+ 
+ 
+ 
+ 
+ 
+ #osnovne_informacije{
+    padding-left:10px;
+    padding-top:9px;
+ }
+ 
+ 
+ 
+ #programski_jezici{
+    padding-left: 10px;
+ }
+ 
+ #programski_jezici .p_jezik{
+    padding-top:20px;
+    padding-bottom:20px;
+ }
+ 
+ .jezik_crno{
+    color:rgb(243, 243, 243);
+    font-size:20px;
+ 
+ 
+ }
+ 
+ 
+ #jezici{
+    padding-left: 10px;
+    display: block;
+    position: relative;
+ }
+ 
+ div.p_procenat{
+    background-color: rgb(111, 180, 245);
+    text-align: center;
+    border-radius:10px;      
+    color:white;  
+    display: block; 
+    padding-bottom:5px;   
+ }
+ 
+ div.j_procenat{
+    background-color: rgb(111, 180, 245);
+    text-align: center; 
+    border-radius:10px;
+    color:white;
+      
+ }
+ 
+ 
+ 
+ 
+ #desna_strana{
+    text-align: left;
+    color:rgb(172, 172, 172);
+  
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px #888888;
+    margin-bottom: 20px;
+    padding-top:20px;
+ }
+ 
+ #poslovna_iskustva{
+    top:15px;
+ }
+ 
+ 
+ div.posao{
+    padding-left: 35px;
+ }
+ .naslov_desno{
+    color:grey;
+    font-size: 25px;
+    font-family: "Palatino Linotype";
+    padding-left:6px;
+ }
+ 
+ 
+ .naslov_posla{
+    color:grey;
+    font-size: 18px;
+    font-family: "Palatino Linotype";
+ }
+ 
+ 
+ .vreme_rada{
+    color:grey;
+    font-size: 15px;
+    font-family: "Palatino Linotype";
+    padding-left:8px;
+ }
+ 
+ span{
+    background-color: rgb(111, 180, 245);
+    border-radius: 7px;
+    color:white;
+    padding: 4px;
+              
+ }
+ 
+ .opis_posla{
+    padding-left:12px;
+    font-size:15px;
+ }
+ .obrazovanje1{
+    padding-left: 35px;
+    font-size:18px;
+    
+    font-family: "Palatino Linotype";
+ 
+ }
+ 
+ .fakultet{
+    font-size:18px;
+    color:grey;
+    font-family: "Palatino Linotype";
+ }
+ 
+ .smer{
+    font-size:15px;
+ }
+ 
+ #footer{
+    clear:both;
+    height:100px;
+    background:black;
+    color:white;
+    font-size:13px;
+    text-align:center;
+    margin-top:20px; 
+    width:100%;
+    
+    
+ }
+ 
+ 
+ .column{
+    float: left;
+    width: 40%;
+
+ }
+ 
+ 
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media (min-width: 320px) and (max-width: 600px) {
+    
+    #leva_strana{
+        margin-right: 0 !important;
+        margin-left:8.5% !important;
+    }
+     
+    #desna_strana{
+        margin-left: 8.5%;
+        height:130vh;
+        margin-right: 0 !important;
+    }
+     
+    .column{
+        width: 79%;
+    }
+     
+    .bottom-left {
+        font-size: 18px;
+        padding-left:0 !important;
+        left: 7px;
+  
+    }
+     
+    .jezik_crno{
+        font-size:15px;
+        padding:3px;
+    }
+        
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media (min-width: 600px) and (max-width: 768px) {
+    #desna_strana{
+        margin-left: 8.5%;
+        height:80vh; 
+        margin-right:0;
+    }
+
+    #leva_strana{
+        margin-right: 0 !important;
+        margin-left:8.5% !important;
+    }  
+    .bottom-left {
+        font-size: 27px;
+        left:9px;
+  
+    }
+}
+  
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+    #desna_strana{
+        height:80vh;
+        margin-right:0;
+        margin-left:2.5% !important;
+   }
+
+   #leva_strana{
+        margin-right: 0 !important;
+        margin-left:5.5% !important;
+
+    }
+
+    .bottom-left {
+        font-size: 16px;
+    }
+}
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1200px) {
+    #desna_strana{
+        height:60vh;
+        margin-right:0;
+        margin-left:2.5% !important;
+    }
+
+    #leva_strana{
+        margin-right: 0 !important;
+        margin-left:5.5% !important;
+
+    }
+
+    .bottom-left {
+        font-size: 23px;
+    }
+}  
+   
+  
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media (min-width: 1200px) {  
+    #desna_strana{
+        height:120vh;
+        margin-right:0;
+        margin-left:5.5% !important;
+    }
+    #leva_strana{
+        margin-left:5.5% !important;
+        margin-right: 0 !important;
+    }
+
+    .bottom-left {
+        font-size: 30px;
+    }
+  }
