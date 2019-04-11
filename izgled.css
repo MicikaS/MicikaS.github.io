@@ -192,7 +192,7 @@ body{
    
   #desna_strana{
       margin-left: 8.5%;
-      height:90vh;
+      height:110vh;
       margin-right: 0 !important;
   }
    
@@ -225,7 +225,7 @@ body{
      
     #desna_strana{
         margin-left: 8.5%;
-        height:130vh;
+        height:110vh;
         margin-right: 0 !important;
     }
      
@@ -251,7 +251,7 @@ body{
   @media (min-width: 600px) and (max-width: 768px) {
     #desna_strana{
         margin-left: 8.5%;
-        height:100vh; 
+        height:110vh; 
         margin-right:0;
     }
 
@@ -270,7 +270,7 @@ body{
   /* Medium devices (landscape tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 992px) {
     #desna_strana{
-        height:80vh;
+        height:100vh;
         margin-right:0;
         margin-left:2.5% !important;
    }
@@ -289,7 +289,7 @@ body{
   /* Large devices (laptops/desktops, 992px and up) */
   @media (min-width: 992px) and (max-width: 1200px) {
     #desna_strana{
-        height:80vh;
+        height:110vh;
         margin-right:0;
         margin-left:2.5% !important;
     }
