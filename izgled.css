@@ -184,8 +184,36 @@ body{
  }
  
  
+ @media  (max-width: 320px) {
+   #leva_strana{
+      margin-right: 0 !important;
+      margin-left:8.5% !important;
+  }
+   
+  #desna_strana{
+      margin-left: 8.5%;
+      height:90vh;
+      margin-right: 0 !important;
+  }
+   
+  .column{
+      width: 79%;
+  }
+   
+  .bottom-left {
+      font-size: 17px;
+      padding-left:0 !important;
+      left: 7px;
 
-
+  }
+   
+  .jezik_crno{
+      font-size:15px;
+      padding:3px;
+  }
+      
+} 
+}
 /* Extra small devices (phones, 600px and down) */
 
 @media (min-width: 320px) and (max-width: 600px) {
@@ -197,7 +225,7 @@ body{
      
     #desna_strana{
         margin-left: 8.5%;
-        height:140vh;
+        height:130vh;
         margin-right: 0 !important;
     }
      
@@ -223,7 +251,7 @@ body{
   @media (min-width: 600px) and (max-width: 768px) {
     #desna_strana{
         margin-left: 8.5%;
-        height:90vh; 
+        height:80vh; 
         margin-right:0;
     }
 
@@ -242,7 +270,7 @@ body{
   /* Medium devices (landscape tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 992px) {
     #desna_strana{
-        height:120vh;
+        height:100vh;
         margin-right:0;
         margin-left:2.5% !important;
    }
@@ -261,7 +289,7 @@ body{
   /* Large devices (laptops/desktops, 992px and up) */
   @media (min-width: 992px) and (max-width: 1200px) {
     #desna_strana{
-        height:70vh;
+        height:60vh;
         margin-right:0;
         margin-left:2.5% !important;
     }
@@ -282,7 +310,7 @@ body{
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media (min-width: 1200px) {  
     #desna_strana{
-        height:130vh;
+        height:120vh;
         margin-right:0;
         margin-left:5.5% !important;
     }
