@@ -289,7 +289,7 @@ body{
   /* Large devices (laptops/desktops, 992px and up) */
   @media (min-width: 992px) and (max-width: 1200px) {
     #desna_strana{
-        height:70vh;
+        height:80vh;
         margin-right:0;
         margin-left:2.5% !important;
     }
@@ -310,7 +310,7 @@ body{
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media (min-width: 1200px) {  
     #desna_strana{
-        height:120vh;
+        height:130vh;
         margin-right:0;
         margin-left:5.5% !important;
     }
