@@ -289,7 +289,7 @@ body{
   /* Large devices (laptops/desktops, 992px and up) */
   @media (min-width: 992px) and (max-width: 1200px) {
     #desna_strana{
-        height:110vh;
+        height:70vh;
         margin-right:0;
         margin-left:2.5% !important;
     }
