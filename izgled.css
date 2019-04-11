@@ -197,7 +197,7 @@ body{
   }
    
   .column{
-      width: 79%;
+      width: 40%;
   }
    
   .bottom-left {
@@ -251,7 +251,7 @@ body{
   @media (min-width: 600px) and (max-width: 768px) {
     #desna_strana{
         margin-left: 8.5%;
-        height:80vh; 
+        height:100vh; 
         margin-right:0;
     }
 
@@ -289,7 +289,7 @@ body{
   /* Large devices (laptops/desktops, 992px and up) */
   @media (min-width: 992px) and (max-width: 1200px) {
     #desna_strana{
-        height:80vh;
+        height:70vh;
         margin-right:0;
         margin-left:2.5% !important;
     }
